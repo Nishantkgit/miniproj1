@@ -1,0 +1,95 @@
+.App {
+  height: 100%;
+  text-align: center;
+  /* padding: 40px; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App h1{
+  font-family: 'Indie Flower', cursive;
+  /* background-color: rgb(167, 249, 222); */
+  color: #201E20;
+  box-shadow: 0 8px 12px 0 #7b5e3ffe;
+  padding: 10px;
+  /* border: 3px solid black; */
+}
+.box{
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.card {
+  padding: 20px;
+  background-color: #ebba85;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+  width: 350px;
+  border: 5px solid rgb(48, 27, 125);
+  float: left;
+  align-items: center;
+}
+.one{
+  float: left;
+}
+.two{
+  float: right;
+}
+.boxr{
+  padding-right: 150px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 150px;
+}
+
+.vertical {
+  border-left: 6px solid black;
+  height: 400px;
+  position:absolute;
+  left: 50%;
+}
+.btn {
+  margin-top: 10px;
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+}
+#subbtn{
+  padding: 8px;
+  border-radius: 16px;
+  border-color: brown;
+}
+input::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 6px;
+  border: thin solid brown;
+  border-radius: 7px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
